@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="container-fluid">
+    <nav class="row">
+
+      <!--this is the use of offset to alignmnt of column in the page accordign the page-->
+        <nav class="col-md-3 col-sm-3 col-ex-3 col-md-offset-3">
+          <h1 class="navbar">navigation</h1>
+    	</nav>
+    	<header class="col-md-3 col-sm-3 col-ex-3 "><!--this is use of grid system in the bootstarp-->
+        <h1 class="header">header</h1>
+      </nav>
+      </header>
+    <aside class="row">
+    	<aside class="col-md-3 col-sm-3 col-ex-3">
+    	<h1 class="sidebar">sidebar</h1>
+    	</aside>
+    	<aside class="col-md-3 col-sm-3 col-ex-3">
+    	<h1 class="footer">footer</h1>
+      </aside>
+      </aside>
+  <!--use of naested rows and columns to crate a one row two column and layout -->
+<footer class"row">
+  <section class="col-md-6" style="background-color: red;">
+    this is one section
+  </section>
+  <section class="col-md-6">this is another column</section>
+  <section class="row">
+    <section class="col-md-6">this is nested column</section>
+  </section>
+</footer>
+  
+</header>    

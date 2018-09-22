@@ -1,0 +1,20 @@
+.navbar
+{
+   height:auto;
+   background-color: lawngreen;
+}
+.header
+{
+    height:auto;
+    background-color: mediumorchid;
+}
+.sidebar
+{
+    height:auto;
+    background-color:red;
+}
+.footer
+{
+    height:auto;
+    background-color: maroon;
+}

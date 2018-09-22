@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form action="registor.php" method="post" ><!--form-inline gets the elments inline -->
+        <div class="form-inline">
+        <label class="mr-sm-2 mb-sm-2" for="firstname">first name</label>
+        <input class="mr-sm-2 mb-sm-2 form-control" type="text" id="firstname"> <!--form control spred the width to 100%-->
+        <label class="mr-sm-2 mb-sm-2 ml-sm-2" for="lastname">lastname</label>
+        <input class="mr-sm-2 mb-sm-2 form-control" type="text" id="lastname"> 
+        </div>
+        <div class="form-inline">
+        <label class="mt-md-5 mr-sm-2 mb-sm-2 sr-only" for="username">username</label>
+        <input class=" mt-md-5 mr-sm-2 mb-sm-2 form-control" type="text" id="username" name="username" placeholder="firstname"> <!--form control spred the width to 100%-->
+        <label class=" mt-md-5  mr-sm-2 mb-sm-2 ml-sm-2 sr-only" for="password">password</label>
+        <input class="mt-md-5 mr-sm-2 mb-sm-2 form-control" type="password" id="password" name="password" placeholder="password"> 
+        <button class="btn btn-primary" value="submit" >submit</button>
+        </div>
+    </form>
+</body>
